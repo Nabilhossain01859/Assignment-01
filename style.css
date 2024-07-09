@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header section related css */
+
+.headerSection {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.btn{
+    border: 1px solid black;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+.btn:hover{
+    background-color: white;
+}
