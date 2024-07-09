@@ -70,4 +70,49 @@
    word-spacing: 3px;
 }
 
-/*  */
+/*why web development section    related css*/
+.mainWebevelopment{
+     height: max-content;
+}
+.secoundryWeb{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.webDevelopmetn{
+    text-align: center;
+}
+.webDevelopmetn > h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.webDevelopmetn > h2, p{
+     padding:30px 0 ;
+}
+
+.cards-parent{
+margin-top: 70px;
+display: flex;
+flex-direction: column      ;
+gap: 50px;
+}
+.cards{
+    display: flex;
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+}
+.cardss{
+    flex-direction: row-reverse;
+    
+}
+.texts{
+    padding-left: 100px;
+}
+.cards-details{
+    margin-right: 100px;
+    width: 500px;
+    
+    gap: 15px;
+    text-align: left;
+}
