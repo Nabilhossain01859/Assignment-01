@@ -94,13 +94,14 @@
 margin-top: 70px;
 display: flex;
 flex-direction: column      ;
-gap: 50px;
+
 }
 .cards{
     display: flex;
     padding: 50px;
     background-color: white;
     border-radius: 8px;
+    margin-bottom: 70px;
 }
 .cardss{
     flex-direction: row-reverse;
