@@ -138,3 +138,35 @@ p {
     font-weight: 800;
     text-decoration: underline;
 }
+
+
+/* my next target section related css */
+.target-cards-parent{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.target-card{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.target-card img {
+  height: 100px;
+  width: 120px;
+}
+.target-card p {
+  opacity: 0.6;
+  font-weight: 600;
+}
+.target-card a{
+font-weight: 800;
+font-size: large;
+}
+
+
+/* footer section related */
