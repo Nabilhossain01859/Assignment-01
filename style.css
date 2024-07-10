@@ -116,38 +116,34 @@ p {
 
 /* my current target related css */
 
-.web-cards-parent{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
-   
-
+.web-cards-parent {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
 }
 .webCards {
-    width: 360px;
-    line-height: 25px;
+  width: 360px;
+  line-height: 25px;
   border-radius: 16px;
   padding: 50px;
   border-radius: 16px;
-
 }
-.webCards  img {
-    margin-bottom: 20px;
+.webCards img {
+  margin-bottom: 20px;
 }
-.webCards a{
-    font-weight: 800;
-    text-decoration: underline;
+.webCards a {
+  font-weight: 800;
+  text-decoration: underline;
 }
-
 
 /* my next target section related css */
-.target-cards-parent{
+.target-cards-parent {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
 }
 
-.target-card{
+.target-card {
   border: 2px solid black;
   border-radius: 10px;
   padding: 50px;
@@ -163,10 +159,48 @@ p {
   opacity: 0.6;
   font-weight: 600;
 }
-.target-card a{
-font-weight: 800;
-font-size: large;
+.target-card a {
+  font-weight: 800;
+  font-size: large;
 }
 
-
 /* footer section related */
+.footer-section {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(41, 39, 39, 0),
+    rgb(44, 43, 43)
+  ),url('./assets/handshake.png');
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.feedback{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feedback-text {
+ width: 500px;
+ padding: 20px;
+border-radius: 10px;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: left;
+  opacity: 0.7;
+  
+  
+}
+.feedback-btn{
+  font-weight: 800;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
