@@ -184,6 +184,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 50px;
+
 }
 
 .feedback-text {
@@ -203,4 +204,25 @@ border-radius: 10px;
   padding: 20px;
   border-radius: 10px;
   
+}
+
+
+.link-section-parent{
+  margin-top: 100px;
+  background-color: rgb(231, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.link-section-text{
+  font-size: large;
+  font-weight: 900;
+}
+.link-section-link > ul {
+  display: flex;
+  gap: 20px;
+}
+.link-section-link > ul >li{
+  list-style: none;
 }
